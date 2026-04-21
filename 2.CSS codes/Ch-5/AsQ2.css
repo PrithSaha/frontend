@@ -1,0 +1,24 @@
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    border: 2px solid teal;
+    border-radius: 50px;
+    display: flex;
+    position: sticky;
+    top: 5px;
+    justify-content: flex-start;
+    align-content: center;
+}
+#ele{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-left:5px;
+    line-height:50px;
+    /* border: 2px solid teal; */
+}
+p{
+    font-size: 100px;
+}

@@ -1,0 +1,54 @@
+#face{
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    border-radius: 50%;
+    margin: 0px;
+}
+#mouth{
+    height:100px;
+    width: 200px;
+    border-radius: 0 0 500px 500px;
+    background-color: red;
+    position: absolute;
+    left:100px;
+    top: 250px;
+}
+#leyes{
+    height: 110px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+#reyes{
+    height: 110px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 240px;
+}
+#leball 
+{
+    height: 70px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}    
+#reball
+{
+    height: 70px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}

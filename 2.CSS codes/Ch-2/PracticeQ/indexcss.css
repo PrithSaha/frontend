@@ -1,0 +1,73 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+h1,h3{
+    color: #b92b27;
+}
+#login {
+    background-color: white;
+}
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: rgb(5, 87, 5);
+    color: white;
+}
+.post a{
+    color: purple;
+}
+p a{
+    color: purple;
+    background-color: yellow;
+}
+p+h3{
+    text-decoration: underline;
+}
+.ans{
+    background-color: lightskyblue;
+    color: rgb(255, 0, 0);
+}
+div>input{
+    background-color: blanchedalmond;
+    color: antiquewhite;
+}
+nav a{
+    color: hotpink;
+}
+input[type="password"]{
+    color: red;
+}
+input[type="text"]{
+    color: rgb(51, 177, 51);
+}
+input[type]{
+    background-color: ghostwhite;
+}
+#myid p{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked+label {
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+.review:hover{
+    text-decoration: tomato dotted underline;
+    color: chartreuse;
+}   

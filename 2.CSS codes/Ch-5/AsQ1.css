@@ -1,0 +1,20 @@
+#parent{
+    height: 400px;
+    width: 400px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   align-items: center;
+}
+#child{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: grey;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}

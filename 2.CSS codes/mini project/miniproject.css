@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main_box{
+    background: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one i{
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    cursor: pointer;
+    transition: all 0.28s linear;
+}
+.btn_two i {
+    color: grey;
+    line-height: 60px;
+    font-size: 25px ;
+    font-weight: 700;
+    position: absolute;
+    left: 275px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.28s linear;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    height: 60px;
+}
+
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu i,a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu i
+{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 25%;
+    bottom: 20px;
+ }
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+ }
+#check{
+    display: none;
+ }
+.sidebar_menu .menu li:hover
+ {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+ }
+.btn_one i:hover{
+    font-size: 40px;
+ }
+.btn_two i:hover{
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu{
+    left:0;
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+#check:checked ~.sidebar_menu .btn_two i{
+    opacity: 1;
+}
+#wel{
+    height: 40px;
+    width: 75vh;
+    position: absolute;
+    top:55%;
+    color: gold;
+    left:15%;
+    opacity: 0.5;
+    text-shadow:  2px 0px 4px white;
+    transition: all 0.2s ease-out;
+}
+#check:checked ~ #wel h2{
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 2px 2px gold;
+    transition: all 0.2s ease-out;
+}
+#check:checked ~ #wel{
+    width: 55vh;
+    left: 40%; 
+    opacity: 1;
+}
+#check:checked ~.sidebar_menu .logo  span{
+    color: red;
+    font-weight: 900;
+    font-size: 30px; 
+}
+.logo i{
+    color: white;
+    position: absolute;
+    left:20px;
+    font-size: 22px;
+    top: 20px;
+    opacity: 0.8;
+    transition: all 0.5s ease-out ;
+}
+.logo i:hover{
+    opacity: 1;
+    scale: 1.2;
+    text-shadow: 2px 0px  2px gray;
+    transition: all 0.2s ease-in ;
+}

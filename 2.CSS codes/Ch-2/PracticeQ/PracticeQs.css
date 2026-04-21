@@ -1,0 +1,15 @@
+h1{
+    color: #1b74e4 ;
+    font-family: 'Klavika';
+    text-transform: lowercase;
+}
+.userbtn{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+*{
+ font-family: 'Times New Roman', Times, serif;
+}

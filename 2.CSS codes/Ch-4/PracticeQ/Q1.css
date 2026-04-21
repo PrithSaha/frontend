@@ -1,0 +1,26 @@
+/* *{
+    background-color: #f7ef99 ;
+} */
+.card{
+    width: 200px;
+    height: 280px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px #ABE188;
+    transition: 0.51s;
+}
+img{
+    width:100%;
+    background-size: cover;
+    border-radius: 4px 4px 0 0;
+}
+.desc{
+    padding: 0 2px 0 2px;
+    background-color:#363C35;
+    color: white;
+}
+.card:hover{
+    box-shadow: 10px 10px 16px #F78E69;
+}
